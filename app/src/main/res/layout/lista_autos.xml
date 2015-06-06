@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/n_serie"
+        android:text="@string/serie"
+        android:textColor="#FF0007AB"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:paddingBottom="3dp"
+        android:paddingLeft="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_marca"
+        android:text="@string/marca"
+        android:textColor="#FF0007AB"
+        android:textStyle="italic"
+        android:paddingBottom="3dp"
+        android:paddingLeft="12dp"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_modelo"
+            android:text="@string/modelo"
+            android:textColor="#FF0007AB"
+            android:textStyle="italic"
+            android:paddingBottom="3dp"
+            android:paddingLeft="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_color"
+            android:text="@string/color"
+            android:textColor="#FF0007AB"
+            android:textStyle="italic"
+            android:paddingBottom="3dp"
+            android:paddingLeft="12dp"/>
+
+        </RelativeLayout>
+
+</LinearLayout>
